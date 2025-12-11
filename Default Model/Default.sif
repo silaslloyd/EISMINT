@@ -1,6 +1,5 @@
 !---LUA BEGIN
-! assert(loadfile('./icematerial.lua'))()
-! assert(loadfile('./accumulation.lua'))()
+! assert(loadfile('./functions.lua'))()
 !---LUA END
 
 
@@ -31,8 +30,8 @@ $fssaflag="full"
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Partitioned mesh
 Header
-  Mesh DB "." "circle"
-  Results Directory "results_TempSlip"
+  Mesh DB "." "footprint"
+  Results Directory "results_Default"
 End
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
