@@ -44,8 +44,8 @@ end
 
 function acc(x,y)
     a_max = 0.5
-    R_el = 2.5E05
-    Sb = 0.05/R_el
+    R_el = 3E05
+    Sb = 0.1/R_el
   
     r = (x*x + y*y)^0.5
     a = min(a_max, Sb*(R_el-r))

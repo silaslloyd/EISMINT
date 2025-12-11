@@ -23,7 +23,7 @@ Plane Surface(1) = {1};
 
 
 Field[1] = MathEval;
-Field[1].F = "30000 - 25000 * Exp(-1 * (((x*x+y*y)^0.5 - 320000) / 200000)^2)";
+Field[1].F = "20000 - 15000 * Exp(-1 * (((x*x+y*y)^0.5 - 320000) / 200000)^2)";
 Background Field = 1;
 
 Recombine Surface{1};
